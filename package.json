@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kalebritt/employee-tracker-mod12/issues"
   },
-  "homepage": "https://github.com/kalebritt/employee-tracker-mod12#readme"
+  "homepage": "https://github.com/kalebritt/employee-tracker-mod12#readme",
+  "dependencies": {
+    "console.table": "^0.10.0"
+  }
 }
