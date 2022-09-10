@@ -13,6 +13,15 @@ CREATE TABLE deparment (
     name VARCHAR(30) NOT NULL,
     id INT NOT NULL AUTO_INCREMENT,
     PRIMARY KEY (id),
+);
+
+--role table
+CREATE TABLE roles (
+    title VARCHAR(30) NOT NULL,
+    id INT NOT NULL AUTO_INCREMENT,
+    PRIMARY KEY (id),
+    deparment_id INT NOT NULL,
+    salary DECIMAL NOT NULL,
 )
 
 
