@@ -10,7 +10,7 @@ USE TABLE roles;
 
 --this here table's for the deparment 
 CREATE TABLE deparment (
-    name VARCHAR(30) NOT NULL,
+    department_name VARCHAR(30) NOT NULL,
     id INT NOT NULL AUTO_INCREMENT,
     PRIMARY KEY (id),
 );
