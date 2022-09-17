@@ -1,4 +1,4 @@
---deparement seeds
+--department seeds
 INSERT INTO deparment (department_name)
 VALUES
 ('Sales'),
@@ -27,7 +27,10 @@ VALUES
 ('Customer Services Second', '80000', 7);
 
 
-
 -- employee seeds
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
+('Humphrey', 'Earwicker', 1)
+('Leopold', 'Bloom', 1),
+('Lt. Commander', 'Data', 2),
+('Geordi', 'La Forge', 2),
