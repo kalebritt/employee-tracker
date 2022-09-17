@@ -3,8 +3,10 @@ const cTable = require("console.table");
 const mysql = require("mysql2");
 // const inquirer = require("inquirer");
 const PORT = process.env.PORT || 3001;
+//figlet fun
 const figlet = require('figlet');
 
+//console.log to see if figlet connected
 figlet('Hello World!!', function(err, data) {
     if (err) {
         console.log('Something went wrong...');
@@ -15,7 +17,7 @@ figlet('Hello World!!', function(err, data) {
 });
 
 
-//connection to database created
+//console.log to see if connected to database
 const connection = mysql.createConnection(
   {
     host: "localhost",
