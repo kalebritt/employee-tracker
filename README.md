@@ -7,7 +7,7 @@ Interested in taking some notes?  You've come to the right place!  This app allo
 
 ## Table of Contents
 
-- [Usage](#usage)
+- [Usage](#usage) 
 - [Credits](#credits)
 - [License](#license)
 - [Installation](#installation)
