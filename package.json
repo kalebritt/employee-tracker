@@ -1,0 +1,20 @@
+{
+  "name": "employee-tracker-mod12",
+  "version": "1.0.0",
+  "description": "[Take Some Notes!](https://kalebritt.github.io/employee-tracker/)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalebritt/employee-tracker.git"
+  },
+  "author": "k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalebritt/employee-tracker/issues"
+  },
+  "homepage": "https://github.com/kalebritt/employee-tracker#readme"
+}
