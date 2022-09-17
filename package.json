@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kalebritt/employee-tracker/issues"
   },
-  "homepage": "https://github.com/kalebritt/employee-tracker#readme"
+  "homepage": "https://github.com/kalebritt/employee-tracker#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
 }
