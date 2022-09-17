@@ -34,3 +34,7 @@ VALUES
 ('Leopold', 'Bloom', 1),
 ('Lt. Commander', 'Data', 2),
 ('Geordi', 'La Forge', 2),
+('Blazes', 'Boylan', 3),
+('Buck', 'Mulligan', 3),
+('Kitty', 'Krause', 4),
+('Cissy', 'Caffrey', 4),
