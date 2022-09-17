@@ -21,7 +21,7 @@ VALUES
 ('Legal Team Lead', '250000', 4),
 ('Lawyer', '190000', 4),
 ('Marketing Lead,', '100000', 5),
-('Markateer', '80000', 5),
+('Marketeer', '80000', 5),
 ('HR Head', '100000', 6),
 ('Customer Services Lead', '100000', 7),
 ('Customer Services Second', '80000', 7);
@@ -38,3 +38,8 @@ VALUES
 ('Buck', 'Mulligan', 3),
 ('Kitty', 'Krause', 4),
 ('Cissy', 'Caffrey', 4),
+('Gerty', 'MacDowell', 5),
+('Mrs. Yelverton', 'Barry', 6),
+('J.J.', 'Malloy', 7),
+('Paddy', 'Dignam', 7);
+
