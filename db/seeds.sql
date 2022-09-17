@@ -7,8 +7,7 @@ VALUES
 ('Legal'),
 ('Marketing'),
 ('Human Resources'),
-('Customer Service'),
-('Other');
+('Customer Service');
 
 --roles seeds
 INSERT INTO roles (title, salary, deparment_id)
@@ -21,6 +20,12 @@ VALUES
 ('Accountant', '125000', 3),
 ('Legal Team Lead', '250000', 4),
 ('Lawyer', '190000', 4),
+('Marketing Lead,', '100000', 5),
+('Markateer', '80000', 5),
+('HR Head', '100000', 6),
+('Customer Services Lead', '100000', 7),
+('Customer Services Second', '80000', 7);
+
 
 
 -- employee seeds
