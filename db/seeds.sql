@@ -1,4 +1,4 @@
---department seeds
+
 INSERT INTO department (department_name)
 VALUES
 ('Sales'),
@@ -9,7 +9,6 @@ VALUES
 ('Human Resources'),
 ('Customer Service');
 
---roles seeds
 INSERT INTO role (title, salary, department_id)
 VALUES 
 ('Sales Lead', '100000', 1),
@@ -27,10 +26,9 @@ VALUES
 ('Customer Services Second', '80000', 7);
 
 
--- employee seeds
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-('Humphrey', 'Earwicker', 1, NULL)
+('Humphrey', 'Earwicker', 1, NULL),
 ('Leopold', 'Bloom', 1, 1),
 ('Lt. Commander', 'Data', 2, NULL),
 ('Geordi', 'La Forge', 2, 3),
