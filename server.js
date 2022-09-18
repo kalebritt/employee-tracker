@@ -3,6 +3,13 @@ const cTable = require("console.table");
 const mysql = require("mysql2");
 // const inquirer = require("inquirer");
 const PORT = process.env.PORT || 3001;
+//express
+const app = express();
+
+// Express middleware
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
 //figlet fun
 const figlet = require('figlet');
 
