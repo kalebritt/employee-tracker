@@ -7,7 +7,7 @@ const figlet = require("figlet");
 init();
 
 function init() {
-  //console.log to see if figlet connected
+  //console.log to see if figlet connected and a hard to read greeting
   figlet("Welcome to Employee Tracker!!", function (err, data) {
     if (err) {
       console.log("Something went wrong...");

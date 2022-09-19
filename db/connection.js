@@ -8,7 +8,7 @@ const connection = mysql.createConnection(
     database: "employee_db",
     password: "xqa^NhYJO1#yQ5X%UfD",
   },
-  console.log("connected, friendo, to employe_db")
+  console.log("connected, friendo, to employe_db. nicely done.")
 );
 
 connection.connect(function (err) {
