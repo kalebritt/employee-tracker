@@ -1,7 +1,7 @@
 //dependancies
 const cTable = require("console.table");
 const inquirer = require("inquirer");
-const db = require('./db/query')
+const db = require("./db/query");
 
 //figlet fun
 const figlet = require("figlet");
@@ -17,8 +17,8 @@ function init() {
       return;
     }
     console.log(data);
-    mainPrompt()
-  })
+    mainPrompt();
+  });
 }
 
 function mainPrompt() {
@@ -36,25 +36,33 @@ function mainPrompt() {
         case "View All Departments":
           viewAllDepartments();
           break;
-          case "View Roles":
+        case "View Roles":
           viewRoles();
+          break;
+        case "View Employees":
+          viewEmployees();
           break;
       }
     });
-
-
 }
 
-function viewAllDepartments(){
-  db.viewAllDepartments().then(([departments])=>{
-    console.table(departments)
-    mainPrompt()
-  })
+function viewAllDepartments() {
+  db.viewAllDepartments().then(([departments]) => {
+    console.table(departments);
+    mainPrompt();
+  });
 }
 
-function viewRoles(){
-  db.viewRoles().then(([roles])=>{
-    console.table(roles)
-    mainPrompt()
-  })
+function viewRoles() {
+  db.viewRoles().then(([roles]) => {
+    console.table(roles);
+    mainPrompt();
+  });
+}
+
+function viewEmployees() {
+  db.viewEmployees().then(([roles]) => {
+    console.table(roles);
+    mainPrompt();
+  });
 }
