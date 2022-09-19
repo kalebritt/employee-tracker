@@ -26,7 +26,7 @@ function mainPrompt() {
         type: "list",
         message: "What would you like to do?",
         name: "choice",
-        choices: ["View All Departments", "View Roles", "View Employees"],
+        choices: ["View All Departments", "View Roles", "Add Role", "View Employees", "Add Employee", "Add Department"],
       },
     ])
     .then(function (userInput) {
