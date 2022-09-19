@@ -1,10 +1,7 @@
 //dependancies
 const cTable = require("console.table");
 const inquirer = require("inquirer");
-const chalk = require("chalk");
 const db = require("./db/query");
-
-//figlet fun
 const figlet = require("figlet");
 
 init();
