@@ -28,7 +28,7 @@ function mainPrompt() {
         type: "list",
         message: "What would you like to do?",
         name: "choice",
-        choices: ["View All Departments", "View Roles"],
+        choices: ["View All Departments", "View Roles", "View Employees"],
       },
     ])
     .then(function (userInput) {
@@ -61,8 +61,8 @@ function viewRoles() {
 }
 
 function viewEmployees() {
-  db.viewEmployees().then(([roles]) => {
-    console.table(roles);
+  db.viewEmployees().then(([employee]) => {
+    console.table(employee);
     mainPrompt();
   });
 }
