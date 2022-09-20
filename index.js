@@ -55,24 +55,34 @@ function mainPrompt() {
       }
     });
 }
-
+//view all departments function
 function viewAllDepartments() {
   db.viewAllDepartments().then(([departments]) => {
     console.table(departments);
     mainPrompt();
   });
 }
-
+//view role function
 function viewRoles() {
   db.viewRoles().then(([roles]) => {
     console.table(roles);
     mainPrompt();
   });
 }
-
+//view employee function
 function viewEmployees() {
   db.viewEmployees().then(([employee]) => {
     console.table(employee);
     mainPrompt();
   });
 }
+//add department function
+
+
+//add role function
+
+
+//add employee function
+
+
+//change employee role function
