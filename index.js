@@ -29,10 +29,10 @@ function mainPrompt() {
         choices: [
           "View All Departments",
           "View Roles",
-          "Add Role",
           "View Employees",
-          "Add Employee",
           "Add Department",
+          "Add Role",
+          "Add Employee",
           "Update Employee Role",
           "Quit",
         ],
@@ -48,6 +48,9 @@ function mainPrompt() {
           break;
         case "View Employees":
           viewEmployees();
+          break;
+        case "Add Department":
+          addDepartment();
           break;
       }
     });
