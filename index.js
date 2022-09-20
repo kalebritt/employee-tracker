@@ -55,34 +55,39 @@ function mainPrompt() {
       }
     });
 }
-//view all departments function
+//viewAllDepartments function
 function viewAllDepartments() {
   db.viewAllDepartments().then(([departments]) => {
     console.table(departments);
     mainPrompt();
   });
 }
-//view role function
+//viewRole function
 function viewRoles() {
   db.viewRoles().then(([roles]) => {
     console.table(roles);
     mainPrompt();
   });
 }
-//view employee function
+//viewEmployee function
 function viewEmployees() {
   db.viewEmployees().then(([employee]) => {
     console.table(employee);
     mainPrompt();
   });
 }
-//add department function
+//addDepartment function
+function addDepartment() {
+  inquirer.prompt([
+    {
+      name: "name",
+      value: "What is the department name?",
+    },
+  ]);
+}
 
+//addRole function
 
-//add role function
+//addEmployee function
 
-
-//add employee function
-
-
-//change employee role function
+//changeEmployeeRole function
