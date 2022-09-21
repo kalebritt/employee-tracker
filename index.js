@@ -125,8 +125,12 @@ function addEmployee() {
       value: "What is the employee's last name?",
     },
     {
-      name: "department",
-      value: "In what department is the role?",
+      name: "role",
+      value: "What is the employee's role?",
+    },
+    {
+      name: "manager",
+      value: "Who is the employee's manager?",
     },
   ]);
 }
