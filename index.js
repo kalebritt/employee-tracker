@@ -114,5 +114,20 @@ function addRole() {
 }
 
 //addEmployee function
-
+function addEmployee() {
+  inquirer.prompt([
+    {
+      name: "first name",
+      value: "What is the emloyee's first name?",
+    },
+    {
+      name: "last name",
+      value: "What is the employee's last name?",
+    },
+    {
+      name: "department",
+      value: "In what department is the role?",
+    },
+  ]);
+}
 //changeEmployeeRole function
