@@ -160,9 +160,18 @@ function addEmployee() {
       ],
     },
     {
-      type: "input",
-      name: "manager_id",
+      type: "list",
+      name: "choice",
       message: "Who is the employee's manager?",
+      choices: [
+        "None",
+        "Humphrey Earwicker",
+        "Lt. Commander Data",
+        "Blazes Boylan",
+        "Kitty Krause",
+        "Gerty MacDowell",
+        "J.J Malloy",
+      ],
     },
   ]);
 }
