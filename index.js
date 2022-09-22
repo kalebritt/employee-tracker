@@ -143,3 +143,10 @@ function addEmployee() {
   ]);
 }
 //changeEmployeeRole function
+function changeEmployeeRole() {
+  inquirer.prompt([
+    {
+      type: 'input',
+      name: "name",
+      message: "What is the role name?",
+    },
