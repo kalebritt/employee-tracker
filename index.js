@@ -102,17 +102,26 @@ function addRole() {
     {
       type: "input",
       name: "role_id",
-      message: "What is the role name?",
+      message: "What is the role?",
     },
     {
       type: "input",
       name: "salary",
-      message: "What is the role salary?",
+      message: "What is the role's salary?",
     },
     {
-      type: "input",
-      name: "department_name",
+      type: "list",
+      name: "choice",
       message: "In what department is the role?",
+      choices: [
+        "Sales",
+        "Engineering",
+        "Finance",
+        "Legal",
+        "Marketing",
+        "Human Resources",
+        "Customer Service",
+      ],
     },
   ]);
 }
@@ -148,7 +157,7 @@ function updateEmployeeRole() {
     {
       type: "list",
       name: "choice",
-      message: "Which employee would you like to change?",
+      message: "Which employee would you like to update?",
       choices: [
         "Humphrey Earwicker",
         "Leopold Bloom",
