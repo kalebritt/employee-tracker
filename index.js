@@ -101,7 +101,7 @@ function addRole() {
   inquirer.prompt([
     {
       type: "input",
-      name: "role",
+      name: "role_id",
       message: "What is the role name?",
     },
     {
@@ -132,12 +132,12 @@ function addEmployee() {
     },
     {
       type: "input",
-      name: "role",
+      name: "role_id",
       message: "What is the employee's role?",
     },
     {
       type: "input",
-      name: "name",
+      name: "manager_id",
       message: "Who is the employee's manager?",
     },
   ]);
@@ -158,7 +158,7 @@ function updateEmployeeRole() {
         "Buck Mulligan",
         "Kitty Krause",
         "Cissy Caffrey",
-        "Gerty MachDowell",
+        "Gerty MacDowell",
         "Mrs. Yelverton Barry",
         "J.J. Mallow",
         "Paddy Dignam",
