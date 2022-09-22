@@ -59,7 +59,7 @@ function mainPrompt() {
           addEmployee();
           break;
         case "Update Employee Role":
-          updateEmployeeROle();
+          updateEmployeeRole();
           break;
       }
     });
@@ -89,7 +89,7 @@ function viewEmployees() {
 function addDepartment() {
   inquirer.prompt([
     {
-      type: 'input',
+      type: "input",
       name: "name",
       message: "What is the department name?",
     },
@@ -100,17 +100,17 @@ function addDepartment() {
 function addRole() {
   inquirer.prompt([
     {
-      type: 'input',
+      type: "input",
       name: "name",
       message: "What is the role name?",
     },
     {
-      type: 'input',
+      type: "input",
       name: "salary",
       message: "What is the role salary?",
     },
     {
-      type: 'input',
+      type: "input",
       name: "department",
       message: "In what department is the role?",
     },
@@ -121,32 +121,35 @@ function addRole() {
 function addEmployee() {
   inquirer.prompt([
     {
-      type: 'input',
+      type: "input",
       name: "first name",
       message: "What is the emloyee's first name?",
     },
     {
-      type: 'input',
+      type: "input",
       name: "last name",
       message: "What is the employee's last name?",
     },
     {
-      type: 'input',
+      type: "input",
       name: "role",
       message: "What is the employee's role?",
     },
     {
-      type: 'input',
+      type: "input",
       name: "manager",
       message: "Who is the employee's manager?",
     },
   ]);
 }
-//changeEmployeeRole function
-function changeEmployeeRole() {
+//updateEmployeeRole function
+function updateEmployeeRole() {
   inquirer.prompt([
     {
-      type: 'input',
-      name: "name",
-      message: "What is the role name?",
+      type: "list",
+      name: "choice",
+      message: "Which employee would you like to change?",
+      choices: []
     },
+  ]);
+}
