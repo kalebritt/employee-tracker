@@ -106,12 +106,12 @@ function addRole() {
     },
     {
       type: "input",
-      name: "salary",
+      name: "name",
       message: "What is the role salary?",
     },
     {
       type: "input",
-      name: "department",
+      name: "name",
       message: "In what department is the role?",
     },
   ]);
@@ -122,22 +122,22 @@ function addEmployee() {
   inquirer.prompt([
     {
       type: "input",
-      name: "first name",
+      name: "name",
       message: "What is the emloyee's first name?",
     },
     {
       type: "input",
-      name: "last name",
+      name: "name",
       message: "What is the employee's last name?",
     },
     {
       type: "input",
-      name: "role",
+      name: "name",
       message: "What is the employee's role?",
     },
     {
       type: "input",
-      name: "manager",
+      name: "name",
       message: "Who is the employee's manager?",
     },
   ]);
