@@ -149,7 +149,20 @@ function updateEmployeeRole() {
       type: "list",
       name: "choice",
       message: "Which employee would you like to change?",
-      choices: []
+      choices: [
+        "Humphrey Earwicker",
+        "Leopold Bloom",
+        "Lt. Commander Data",
+        "Geordi La Forge",
+        "Blazes Boylan",
+        "Buck Mulligan",
+        "Kitty Krause",
+        "Cissy Caffrey",
+        "Gerty MachDowell",
+        "Mrs. Yelverton Barry",
+        "J.J. Mallow",
+        "Paddy Dignam",
+      ],
     },
   ]);
 }
