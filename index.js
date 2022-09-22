@@ -90,7 +90,7 @@ function addDepartment() {
   inquirer.prompt([
     {
       name: "name",
-      value: "What is the department name?",
+      message: "What is the department name?",
     },
   ]);
 }
@@ -100,15 +100,15 @@ function addRole() {
   inquirer.prompt([
     {
       name: "name",
-      value: "What is the role name?",
+      message: "What is the role name?",
     },
     {
       name: "salary",
-      value: "What is the role salary?",
+      message: "What is the role salary?",
     },
     {
       name: "department",
-      value: "In what department is the role?",
+      message: "In what department is the role?",
     },
   ]);
 }
@@ -118,19 +118,19 @@ function addEmployee() {
   inquirer.prompt([
     {
       name: "first name",
-      value: "What is the emloyee's first name?",
+      message: "What is the emloyee's first name?",
     },
     {
       name: "last name",
-      value: "What is the employee's last name?",
+      message: "What is the employee's last name?",
     },
     {
       name: "role",
-      value: "What is the employee's role?",
+      message: "What is the employee's role?",
     },
     {
       name: "manager",
-      value: "Who is the employee's manager?",
+      message: "Who is the employee's manager?",
     },
   ]);
 }
