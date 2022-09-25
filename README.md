@@ -1,4 +1,4 @@
-# employee-tracker
+# Employee-Tracker
 [Employee Tracker](https://kalebritt.github.io/employee-tracker/)
 
 ## Description
@@ -15,6 +15,8 @@ With this handy app, the user can track employee's information.  This includes d
 - [Installation](#installation)
 
 # Usage
+This Command-Line Interface (CLI) utilizes an Application Programming Interface (API) using Express.js and MYSQL database using Sequalize.
+
 Below is a screenshot of the deployed app.
 
 ![screenshot of app deployed](screenshothere)
