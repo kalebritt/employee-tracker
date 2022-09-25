@@ -19,6 +19,12 @@ class DB {
   viewEmployees() {
     return this.connection.promise().query("SELECT * FROM employee");
   }
+
+  addDepartment(department) {
+    return this.connection
+      .promise()
+      .query("INSERT INTO department SET ?", department);
+  }
 }
 
 module.exports = new DB(connection);

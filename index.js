@@ -93,7 +93,10 @@ function addDepartment() {
       name: "department_name",
       message: "What is the department name?",
     },
-  ]);
+  ])
+  .then((answers) => {
+    
+  })
 }
 
 //addRole function
