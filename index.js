@@ -111,9 +111,7 @@ function addRole() {
     const departmentChoices = departments.map((x) => {
       return { name: x.Department, value: x.id };
     });
-    //   { name: 'department name here',
-    //   value: (dept id here)
-    // }
+
     inquirer
       .prompt([
         {
@@ -240,8 +238,3 @@ function updateEmployeeRole() {
     });
   });
 }
-
-//process.exit() to quit
-//generate employee choices
-//generate role choices
-//UPDATE employee SET role_id = ? WHERE id = ?
