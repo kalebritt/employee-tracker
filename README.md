@@ -1,8 +1,10 @@
 # employee-tracker
-[Take Some Notes!](https://kalebritt.github.io/employee-tracker/)
+[Employee Tracker](https://kalebritt.github.io/employee-tracker/)
 
 ## Description
-Interested in taking some notes?  You've come to the right place!  This app allows the user to write and save any note of their choosing.  Going to the grocery store?  Use this app to track all your tricky products!  Forgot how to tie your shoes?  No worries!  Use this app to take notes of your favorite youtube shoe tying tutuorial!  The possibilites are literally endless!
+With this handy app, the user can track employee's information.  This includes department, salary, manager, and more.  The user can also add new employees and change department information elegantly displayed in tables in the terminal.  Click on the link below to see a video of the app in action!
+
+[See the app!](videohere)
 
 
 ## Table of Contents
@@ -15,11 +17,11 @@ Interested in taking some notes?  You've come to the right place!  This app allo
 # Usage
 Below is a screenshot of the deployed app.
 
-![screenshot of app deployed](screenshot here)
+![screenshot of app deployed](screenshothere)
 
 
 # Credits
-My thanks to Collin P. and his other-wordly knowledge without which I'd undoubtedly still be working on this app.
+Tremendous credit to Jude C. and her infinite knowledge and experience she was generous enough to share with me.
 
 # License
 
