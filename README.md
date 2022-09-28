@@ -1,7 +1,5 @@
 # Employee-Tracker
 
-[Employee Tracker](https://kalebritt.github.io/employee-tracker/)
-
 ## Description
 
 With this handy app, the user can track employee's information. This includes department, salary, manager, and more. The user can also add new employees and change department information elegantly displayed in tables in the terminal. Click on the link below to see a video of the app in action!
