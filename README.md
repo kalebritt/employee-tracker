@@ -6,7 +6,7 @@
 
 With this handy app, the user can track employee's information. This includes department, salary, manager, and more. The user can also add new employees and change department information elegantly displayed in tables in the terminal. Click on the link below to see a video of the app in action!
 
-[See the app!](videohere)
+[See the app!](./assets/screenshots/video/Video%20of%20Employee%20Tracker.webm)
 
 ## Table of Contents
 
